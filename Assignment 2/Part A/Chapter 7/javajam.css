@@ -1,0 +1,133 @@
+body{
+    background-color: #F5F5DC;
+    background-image: url("img//img/background.gif");
+    color: #2E0000;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: #D2B48C;
+}
+
+footer{
+    background-color: #D2B48C ;
+    color: #000000;
+}
+
+nav{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 160px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', serif;
+    height: 100px;
+    margin: 0px;
+    background-image: url(img/img/javalogo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h3{
+    background-color: #E6D6A9;
+    text-transform: uppercase;
+}
+
+dt{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: .60em;
+    font-style: italic;
+    padding: 10px;
+}
+
+#wrapper{
+    margin: auto;
+    width: 80%;
+    background-color: #E2D2B0;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #2E0000;
+}
+
+main{
+    padding: 20px;
+    display: block;
+    margin-left: 175px;
+    background-color: #F5F5DC;
+}
+
+main img{
+    float: left;
+    padding-right: 2em;
+}
+
+main ul{
+    list-style-image: image("img/img/favicon.jpg");
+    list-style-position: inside;
+}
+
+main div{
+    overflow: auto;
+    font-size: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#hero{
+    height: 300px;
+    color: #F5F5DC;
+    background-image: url(img/img/windingroad.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.news{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+nav a:link{
+    color: #795240;
+}
+
+nav a:visited{
+    color: #A58366;
+}
+
+nav a:hover{
+    color: #F5F5DC;
+}
+
+footer:link{
+    color: #2E0000;
+}
+
+footer:visited{
+    color: #000000;
+}
+
+footer:hover{
+    color: #F5F5DC;
+}

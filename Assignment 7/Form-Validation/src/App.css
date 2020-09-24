@@ -1,0 +1,18 @@
+
+
+.label {
+  float: left;
+  width: 150px;
+}
+.Wrapper {
+  width: 900px;
+  margin: auto;
+  background-color: beige;
+  padding:20px;
+}
+.body {
+  padding: 50px;
+}
+.errorMessage {
+  color: red;
+}

@@ -1,0 +1,87 @@
+body{
+    background-color: #F5F5DC;
+    background-image: url("img//img/background.gif");
+    color: #2E0000;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: #D2B48C;
+}
+
+footer{
+    background-color: #D2B48C ;
+    color: #000000;
+}
+
+nav{
+    font-weight: bold;
+    text-align: center;
+    background-color: #E6D6A9;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-image: url("img/img/favicon.jpg");
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', serif;
+    height: 100px;
+    margin: 0px;
+    background-image: url(img/img/javalogo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h3{
+    background-color: #E6D6A9;
+    text-transform: uppercase;
+}
+
+dt{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: .60em;
+    font-style: italic;
+    padding: 10px;
+}
+
+#wrapper{
+    margin: auto;
+    width: 80%;
+    background-color: #F5F5DC;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #2E0000;
+}
+
+main{
+    padding: 20px;
+    display: block;
+}
+
+#hero{
+    height: 300px;
+    color: #F5F5DC;
+    background-image: url(img/img/windingroad.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.news{
+    margin-left: 20%;
+    margin-right: 20%;
+}

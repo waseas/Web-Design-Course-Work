@@ -1,0 +1,49 @@
+body{
+    background-color: #F5F5DC;
+    color: #2E0000;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: #D2B48C;
+}
+
+footer{
+    background-color: #D2B48C ;
+    color: #000000;
+}
+
+ul{
+    list-style-image: url("img/img/favicon.jpg");
+}
+
+nav{
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h3{
+    background-color: #E6D6A9;
+    text-transform: uppercase;
+}
+
+dt{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-size: .60em;
+    font-style: italic;
+}

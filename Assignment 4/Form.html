@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Feedback</title>
+  <style>
+    label {	float: left;
+			width: 150px;}
+      #container{
+          width: 800px;
+          margin: auto;
+          background-color: beige;
+      } 
+      main{
+          padding: 50px;
+      }
+  </style>
+  <script src="Script.js"></script>
+  <link rel="stylesheet" type="text/css" href="table.css">
+ </head>
+ <body>
+ <div id="container">
+	 
+	 <main>
+	 <h2>Feeback</h2>
+	 <h3>Love something? Hate something? Let us know!</h3>
+		 Note : Fields marked with an asterisk(*) are mandatory
+		 <br><br>
+		 <form name="myForm" method="post" novalidate>
+			<label>Title*:</label>
+			<input type="radio" name="title" id="miss" value="miss" required="required"/>Miss
+			<input type="radio" name="title" id="mr" value="mr" required="required"/>Mr.
+			<input type="radio" name="title" id="mrs" value="mrs" required="required"/>Mrs.
+			<br><br>
+
+			<label for="firstName">First Name*:</label>
+			<input type="text" name="firstName" id="firstName" placeholder="First Name" onblur="validateFirstName()"/> <span id="firstNameError"></span>
+			<!-- <div id="firstNameError"></div>	 -->
+			<br><br>
+			
+
+			<label for="lastName">Last Name*:</label>
+			<input type="text" name="lastName" id="lastName" placeholder="Last Name" onblur="validateLastName()"/> <span id="lastNameError"></span>
+			<!-- <div id="lastNameError"></div>	 -->
+			<br><br>
+			
+
+			<label for="emailId">Email Id*:</label>
+			<input type="text" name="emailId" id="emailId" placeholder="yourname@domain.com" onblur="validateEmail()"/> <span id="emailError"></span>
+			<!-- <div id="emailError"></div> -->
+			<br><br>
+			
+
+			<label for="phoneNumber">Phone Number*:</label>
+			<input type="text" name="phoneNumber" id="phoneNumber" placeholder="xxx-xxx-xxxx" onblur="validatePhoneNumber()" /> <span id="phoneNumberError"></span>
+			<!-- <div id="phoneNumberError"></div> -->
+			<br><br>
+			
+            <label for="zipcode">ZipCode*:</label>
+			<input type="text" name="zipcode" id="zipcode" placeholder="xxxxxx" onblur="validateZipCode()"/> <span id="zipCodeError"></span>
+			<br><br>
+
+			<label for="favoriteCuisine">Favorite Cuisine*:</label>
+			<select name="favoriteCuisine" id="favoriteCuisine" onchange="selectFavoriteCuisine()">
+				<option value="">---select---</option>
+				<option value="american">American</option>
+				<option value="mexican">Mexican</option>
+				<option value="chinese">Chinese</option>
+				<option value="indian">Indian</option>
+			</select>
+			<br><br>
+
+			<div id="details" style="display: none;"></div>
+			<br>
+
+            <label for="source">How did you hear*:</label>
+			<input type='checkbox' name="source" value="facebook" /> Facebook
+            <input type='checkbox' name="source" value="google" /> Google
+            <input type='checkbox' name="source" value="yelp" /> Yelp 
+			<br><br> 
+             
+			<label for="comments">Comments*:</label>
+			<textarea name="text" id="comments" placeholder="Your comments" rows="5" cols="25"></textarea>
+			<br><br>
+			
+			<input type="submit" onClick="submitForm()">
+			<!-- <button id="button" onclick="submitForm()">Submit</button> -->
+			<input type="Reset">
+			<br><br>
+		 </form>
+
+		<!-- <table id="myTable">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email Id</th>
+					<th>Phone Number</th>
+					<th>Zip Code</th>
+					<th>Favorite Cuisine</th>
+					<th>Favorite Dish</th>
+					<th>Amount Paid</th>
+					<th>Comments</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table> -->
+		
+	 </main>
+ </div>
+
+ <script>
+ 
+ </script>
+
+ </body>
+</html>

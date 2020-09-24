@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>Feedback</title>
+  <link rel="stylesheet" href="Form.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="Form.js"></script>
+ </head>
+ <body>
+ <div id="container">
+	 
+	 <main>
+	 <h2>Feeback</h2>
+	 <h3>Love something? Hate something? Let us know!</h3>
+		 Note : Fields marked with an asterisk(*) are mandatory
+		 <br><br>
+		 <form method="post" id="myForm">
+			<label>Title*:</label>
+			<input type="radio" name="title" id="miss" value="miss" required="required"/>Miss
+			<input type="radio" name="title" id="mr" value="mr" required="required"/>Mr.
+			<input type="radio" name="title" id="mrs" value="mrs" required="required"/>Mrs.
+			<br><br>
+			<label for="firstName">First Name*:</label>
+			<input type="text" name="firstName" id="firstName" placeholder="First Name" required="required"/>	
+			<br><br>
+			
+
+			<label for="lastName">Last Name*:</label>
+			<input type="text" name="lastName" id="lastName" placeholder="Last Name" required="required"/>
+			<br><br>
+			
+
+			<label for="emailId">Email Id*:</label>
+			<input type="text" name="emailId" id="emailId" placeholder="yourname@domain.com" required="required"/>
+			<br><br>
+			
+
+			<label for="phoneNumber">Phone Number*:</label>
+			<input type="text" name="phoneNumber" id="phoneNumber" placeholder="xxx-xxx-xxxx" required="required"/>
+			<br><br>
+			
+            <label for="zipcode">ZipCode*:</label>
+			<input type="text" name="zipcode" id="zipcode" placeholder="xxxxxx" required="required"/>
+			<br><br>
+             
+            <label for="zipcode">How did you hear*:</label>
+			<input type='checkbox' name="source" value="facebook" /> Facebook
+            <input type='checkbox' name="source" value="google" /> Google
+            <input type='checkbox' name="source" value="yelp" /> Yelp 
+			<br><br> 
+
+			<label for="favoriteCuisine">Favorite Cuisine*:</label>
+			<select name="favoriteCuisine" id="favoriteCuisine">
+				<option value="">---select---</option>
+				<option value="american">American</option>
+				<option value="mexican">Mexican</option>
+				<option value="chinese">Chinese</option>
+				<option value="indian">Indian</option>
+			</select>
+
+			<span id="s1"><input type='checkbox' name="dish" value="hamburger" id="hamburger"/> Hamburger </span>
+			<span id="s2"><input type='checkbox' name="dish" value="chilaquiles" id="chilaquiles"/> Chilaquiles</span>
+			<span id="s3"><input type='checkbox' name="dish" value="dumpling" id="dumpling" /> Dumpling </span>
+			<span id="s4"><input type='checkbox' name="dish" value="butterChicken" id="butterChicken" /> Butter Chicken</span>
+
+			<span id="s5">* <input type="text" name="userInput" id="userInput" /></span>
+			
+			<br><br>
+             
+			<label for="comments">Comments*:</label>
+			<textarea name="text" id="comments" placeholder="Your comments" rows="5" cols="25" required="required"></textarea>
+			<br><br>
+			<input type="Submit" id="submit">
+			<input type="Reset">
+			<br><br>
+		 </form>
+	 </main>
+
+	<div id="table">
+		<table>
+		  <thead>
+			<tr>
+				<td>Title</td>
+				<td>First Name</td>
+				<td>Last Name</td>
+				<td>Email ID</td>
+				<td>Phone Number</td>
+				<td>Zip Code</td>
+				<td>How did you hear from us</td>
+				<td>Comments</td>
+				<td>Favourite Cuisine</td>
+			</tr>
+		  </thead>
+		  <tbody id="displayArea"></tbody>
+		</table>
+	</div>
+
+ </div>
+
+ <script>
+ 
+ </script>
+
+ </body>
+</html>
